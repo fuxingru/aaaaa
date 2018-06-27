@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新手指引</title>
+		<link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/novice.css" />
+	</head>
+	<body>
+    <!-- header start -->
+    <header>
+        <div class="header-center view_width">
+            <div class="header-zuo">
+                <img src="images/logo.png" alt="" onclick="window.location.href='home.html'" />
+            </div>
+            <ul class="header-zhong">
+                <li class="homePage" onclick="window.location.href='home.html'">首页</li>
+                <li class="investPage" onclick="window.location.href='invest.html'">我要投资</li>
+                <li class="novicePage" onclick="window.location.href='novice.html'">新手指引</li>
+                <li class="aboutUs" onclick="window.location.href='about_us.html'">关于我们</li>
+                <li class="myAccount" onclick="window.location.href='login.html'">我的账户</li>
+            </ul>
+            <div class="header-you">
+                <span id="app_down">手机端下载</span>
+                <span class="header-login" onclick="window.location.href='login.html'">登录</span>
+                <span class="header-register" onclick="window.location.href='registered.html'">快速注册</span>
+            </div>
+            <div class="app_down">
+                <h1>老婆本
+                    <img class="close" src="images/chahao.png" alt="">
+                </h1>
+                <img class="QR" src="images/iosQrcodeDownload.png" alt="">
+                <h2>手机App操作更方便</h2>
+                <div class="down_icon">
+                    <img class="ios_icon" src="images/ios1.png" alt="">
+                    <img class="android_icon" src="images/安卓1%20(1).png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header end -->
+    <!--banner start-->
+	<div class="banner-images">
+		<img src="images/7新手指引.png" alt="" />
+	</div>
+    <!--banner end-->
+
+    <!-- footer start-->
+    <div class="footer">
+        <div class="footer_container view_width">
+            <div class="footer_top">
+                <div class="f_t_left">
+                    <ul>
+                        <li><img src="images/友情链接.png" alt="">友情链接</li>
+                        <li>阿里云</li>
+                        <li>网贷之星</li>
+                        <li>网贷天下</li>
+                        <li>理财之家</li>
+                        <li>云通讯253</li>
+                        <li>网贷大本营</li>
+                    </ul>
+                    <ul>
+                        <li onclick="window.location.href='about_us.html'"><img src="images/关于我们.png" alt="">关于我们</li>
+                        <li onclick="window.location.href='platform.html'">平台资质</li>
+                        <li onclick="window.location.href='protect.html'">安全保障</li>
+                        <li onclick="window.location.href='novice.html'">新手指引</li>
+                        <li onclick="window.location.href='problem.html'">常见问题</li>
+                    </ul>
+                </div>
+                <div class="f_t_center">
+                    <div class="weixin">
+                        <img src="images/weixin.png" alt="">
+                        <br>
+                        <br>
+                        <p>微信公众号</p>
+                    </div>
+                    <div class="QQ">
+                        <img src="images/qqQrcode.png" alt="">
+                        <br>
+                        <br>
+                        <p>qq群</p>
+                    </div>
+                </div>
+                <div class="f_t_right">
+                    <p><img src="images/联系我们.png" alt="">联系我们（9:00-17:00）</p>
+                    <p>400-667-696</p>
+                    <p><img src="images/qq2.png" alt="">250730133</p>
+                    <p><img src="images/qq2.png" alt="">690769143（VIP群）</p>
+                    <p><img src="images/邮箱.png" alt="">business@lpben.com</p>
+                </div>
+            </div>
+            <div class="footer_bot">
+                <p>Copyright © 2013-2017,杭州富溢网络科技有限公司 版权所有浙ICP备18018392号-1
+                    <br>
+                    市场有风险 , 投资需谨慎
+                    <img src="images/安全联盟.png" alt="">
+                    <img src="images/全国安全.png" alt="">
+                </p>
+                <!--<div>
+                    
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!-- footer end-->
+    <script src="libs/jquery%203.2.1/jquery-3.2.1.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        $('document').ready(function () {
+            $(".novicePage").addClass("active_header");
+        })
+    </script>
+	</body>
+</html>

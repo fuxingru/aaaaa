@@ -1,0 +1,101 @@
+body{
+	  font-family:Arial;
+	  font-size:12px;
+}
+@media screen and (min-width: 1201px){
+    .banner-one,.banner-two,.banner-three,.container{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1200px){
+    .banner-one,.banner-two,.banner-three,.container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+.banner-one img{
+	    max-width: 100%;  
+        max-height: 100%;  
+        vertical-align: middle;  
+}
+.banner-two img{
+	    max-width: 100%;  
+        max-height: 100%;  
+        vertical-align: middle;  
+}
+.banner-three img{
+	   max-width: 100%;  
+        max-height: 100%;  
+        vertical-align: middle;  
+}
+.container{
+			background: #fff;
+			position: relative;
+			margin-top: 50px;
+		}
+		#carousel {
+	        width:960px;
+	        /* border:1px solid #222; */
+	        height:300px;
+	        position:relative;
+	        clear:both;
+	        overflow:hidden;
+	        background:#FFF;
+			margin: auto;
+	      }
+	      #carousel img {
+	        visibility:hidden; /* hide images until carousel can handle them */
+	      	height: 317px;
+	        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+	      }
+	      #callback-output{
+	      	width: 100%;
+	      	min-height: 50px;
+	      	background: #fff;
+	      	padding: 8px;
+	      	height:500px;
+        	overflow-y:scroll;
+	      }
+	      #prev img{
+	      	transform: scale(-1); accelerator: false;
+	      }
+	      #prev img,#next img{
+	      	width: 60px;
+	      }
+	      #prev,#next{
+	      	position: absolute;
+	      	top: 245px;
+	      }
+	      #prev{
+	      	left: 20%;
+	      }
+	      #next{
+	      	right: 20%;
+	      }
+	      .wenzi{
+	      	text-align: center;
+	      	margin-bottom: 62px;
+	      }
+	      .wenzi p{
+	      	line-height: 25px;
+	      }
+	      .wenzi p:nth-child(1){
+	      	font-size: 18px;
+	      }
+	      .wenzi p:nth-child(2){
+	      	font-size: 20px;
+	      	font-weight: 550;
+	      	letter-spacing: 30px;
+	      }
+	     
+	      .big_img{
+	      	width: 500px;
+	      	height: 400px;
+	      	margin: auto;
+      	    position: absolute;
+		    left: 700px;
+		    top: 90px;
+		    z-index: 20;
+		    display: none;
+	      }

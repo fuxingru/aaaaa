@@ -1,0 +1,15 @@
+@media screen and (min-width: 1201px){
+    .banner-baozhang{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1200px){
+    .banner-baozhang{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+.banner-baozhang img{
+	width: 100%;
+}

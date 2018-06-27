@@ -1,0 +1,77 @@
+#problem{
+  >p{
+    margin: 20px 10px;
+    .red_text{
+      color: #fd6204;
+      span{
+        color: #fd6204;
+        cursor: pointer;
+      }
+    }
+  }
+  .prob_title{
+    display: flex;
+    list-style: none;
+    margin-bottom: 30px;
+    li{
+      width: 33.33%;
+      text-align: center;
+      border-right: 1px solid #e3e3e3;
+      cursor: pointer;
+      img{
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .img_hide{
+        display: none;
+      }
+    }
+    li:last-child{
+      border-right: none;
+    }
+    .selected{
+      color: #fd6204;
+    }
+  }
+  .prob_cont{
+    list-style: none;
+    box-sizing: border-box;
+    padding: 20px;
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+      border: 1px solid #fe6700;
+      background: #fe6700;
+    }
+  }
+  .media_cont{
+    display: none;
+  }
+  .anno_cont{
+    display: none;
+  }
+  .page_btn{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 30px auto;
+    li{
+      width: 26px;
+      height: 26px;
+      line-height: 26px;
+      text-align: center;
+      box-sizing: border-box;
+      border: 1px solid #fe6700;
+      margin: 0 10px;
+      color: #696969;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    li:hover{
+      background: #fe6700;
+      color: #ffffff;
+    }
+    .choose_btn{
+      background: #fe6700;
+      color: #ffffff;
+    }
+  }
+}

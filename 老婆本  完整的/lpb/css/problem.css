@@ -1,0 +1,80 @@
+#problem > p {
+  margin: 20px 10px;
+}
+#problem > p .red_text {
+  color: #fd6204;
+}
+#problem > p .red_text span {
+  color: #fd6204;
+  cursor: pointer;
+}
+#problem .prob_title {
+  display: flex;
+  list-style: none;
+  margin-bottom: 30px;
+}
+#problem .prob_title li {
+  width: 33.33%;
+  text-align: center;
+  border-right: 1px solid #e3e3e3;
+  cursor: pointer;
+}
+#problem .prob_title li img {
+  display: inline-block;
+  vertical-align: middle;
+}
+#problem .prob_title li .img_hide {
+  display: none;
+}
+#problem .prob_title li:last-child {
+  border-right: none;
+}
+#problem .prob_title .selected {
+  color: #fd6204;
+}
+#problem .prob_cont {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 20px;
+}
+#problem .prob_cont .ui-state-active,
+#problem .prob_cont .ui-widget-content .ui-state-active,
+#problem .prob_cont .ui-widget-header .ui-state-active,
+#problem .prob_cont a.ui-button:active,
+#problem .prob_cont .ui-button:active,
+#problem .prob_cont .ui-button.ui-state-active:hover {
+  border: 1px solid #fe6700;
+  background: #fe6700;
+}
+#problem .media_cont {
+  display: none;
+}
+#problem .anno_cont {
+  display: none;
+}
+#problem .page_btn {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 30px auto;
+}
+#problem .page_btn li {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #fe6700;
+  margin: 0 10px;
+  color: #696969;
+  font-size: 12px;
+  cursor: pointer;
+}
+#problem .page_btn li:hover {
+  background: #fe6700;
+  color: #ffffff;
+}
+#problem .page_btn .choose_btn {
+  background: #fe6700;
+  color: #ffffff;
+}

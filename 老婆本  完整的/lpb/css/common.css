@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    color: #333;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    outline: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+iframe{
+    width: 100%;
+}
+.iframe_header{
+    height: 80px;
+}
+.iframe_footer{
+    height: 448px;
+}
+/* ************************************************* */
+/* 可视化宽度 */
+.view_width{
+    width: 1200px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 1201px){
+    .banner,
+    .novice,
+    .news
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1200px){
+    .banner,
+    .novice,
+    .news
+    {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.top_height{
+    margin-top: 60px;
+}
+.bot_height{
+    margin-bottom: 60px;
+}
+
+/* header 初始化 */
+.active_header{
+    color: #ffffff;
+    background: #ff9205;
+}

@@ -1,0 +1,89 @@
+
+.header-center{
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+}
+.header-zuo{
+    width: 20%;
+}
+.header-zuo img{
+    vertical-align: middle;
+    cursor: pointer;
+}
+.header-zhong{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.header-zhong li{
+    box-sizing: border-box;
+    padding: 0 30px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.header-zhong li:hover{
+    color: #ffffff;
+    background: #ff9205;
+}
+
+.header-you{
+    width: 30%;
+    text-align: right;
+    white-space: nowrap;
+}
+.header-you a,
+.header-you span{
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.header-login,.header-register{
+    border: 1px solid #333333;
+    padding: 5px;
+}
+.app_down{
+    position: absolute;
+    z-index: 99;
+    width: 30%;
+    top: 100px;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    display: none;
+}
+.app_down h1{
+    text-align: center;
+    font-size: 30px;
+    color: #ededed;
+    position: relative;
+}
+.close{
+    width: 40px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.app_down h2{
+    text-align: center;
+    font-size: 20px;
+    color: #ededed;
+}
+
+.app_down>img{
+    display: block;
+    margin: auto;
+}
+.down_icon{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 0 18%;
+}
+.down_icon img{
+    cursor: pointer;
+}

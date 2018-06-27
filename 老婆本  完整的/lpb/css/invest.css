@@ -1,0 +1,106 @@
+#invest {
+  background-color: #f1f3f9;
+  box-sizing: border-box;
+  padding-bottom: 60px;
+}
+#invest .invest_title {
+  background: #ffffff;
+  margin-top: 60px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+#invest .invest_title ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+#invest .invest_title ul li {
+  width: 12%;
+  font-size: 14px;
+  cursor: pointer;
+}
+#invest .invest_title ul li .red_num {
+  color: #fd6204;
+}
+#invest .invest_title ul li .down_arrow {
+  margin-left: 10px;
+}
+#invest .invest_title ul .label {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: default;
+  width: 10%;
+}
+#invest .invest_title ul .all {
+  color: #F58F44;
+  width: 7%;
+}
+#invest .invest_title ul:last-child {
+  margin-bottom: 0;
+}
+#invest .invest_cont {
+  margin-top: 30px;
+}
+#invest .invest_cont ul {
+  list-style: none;
+}
+#invest .invest_cont ul li {
+  width: 49.5%;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 30px;
+  float: left;
+  margin-bottom: 5px;
+}
+#invest .invest_cont ul li h3 {
+  font-size: 1.17em;
+  margin-bottom: 20px;
+}
+#invest .invest_cont ul li .red_text {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#invest .invest_cont ul li .red_text span {
+  display: inline-block;
+  width: 50%;
+  color: red;
+  font-weight: bold;
+}
+#invest .invest_cont ul li .red_text .big_text {
+  font-size: 48px;
+}
+#invest .invest_cont ul li .red_text .small_text {
+  font-size: 20px;
+}
+#invest .invest_cont ul li .shouyi {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#invest .invest_cont ul li .shouyi span {
+  display: inline-block;
+  width: 50%;
+}
+#invest .invest_cont ul li .progress_bar {
+  margin-top: 10px;
+  width: 100%;
+  height: 11px;
+  border-radius: 11px;
+  background: #e3e3e3;
+  position: relative;
+}
+#invest .invest_cont ul li .progress_bar .progress_cont {
+  background: #F58F44;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 11px;
+  border-radius: 12px;
+}
+#invest .invest_cont ul li:nth-of-type(odd) {
+  margin-right: 1%;
+}
+#invest .invest_cont::after {
+  clear: both;
+  display: table;
+  content: "";
+}

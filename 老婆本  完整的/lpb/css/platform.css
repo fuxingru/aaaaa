@@ -1,0 +1,109 @@
+@media screen and (min-width: 1201px){
+    .banner-pingtai,.pingtai-contant{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1200px){
+    .banner-pingtai,.pingtai-contant{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+/*平台资质中心内容样式开始*/
+.pc-slide {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.view .swiper-container {
+		/*width: 500px;*/
+		/*height: 500px;*/
+	}
+
+	.view .arrow-left {
+		background: url(../images/index_tab_l.png) no-repeat left top;
+		position: absolute;
+		left: 10px;
+		top: 50%;
+		margin-top: -25px;
+		width: 28px;
+		height: 51px;
+		z-index: 10;
+	}
+
+	.view .arrow-right {
+		background: url(../images/index_tab_r.png) no-repeat left bottom;
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		margin-top: -25px;
+		width: 28px;
+		height: 51px;
+		z-index: 10;
+	}
+
+	.preview {
+		width: 100%;
+		margin-top: 10px;
+		position: relative;
+	}
+
+	.preview .swiper-container {
+		width: 871px;
+		height: 145px;
+		margin-left: 48px;
+	}
+
+	.preview .swiper-slide {
+		width: 87px;
+		height: 82px;
+		cursor:pointer;
+	}
+
+	.preview .slide6 {
+		width: 82px;
+	}
+
+	.preview .arrow-left {
+		background: url(../images/feel3.png) no-repeat left top;
+		position: absolute;
+		left: 10px;
+		top: 50%;
+		margin-top: -9px;
+		width: 9px;
+		height: 18px;
+		z-index: 10;
+	}
+
+	.preview .arrow-right {
+		background: url(../images/feel4.png) no-repeat left bottom;
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		margin-top: -9px;
+		width: 9px;
+		height: 18px;
+		z-index: 10;  
+	}
+
+	.preview img {
+		padding: 1px;
+	}
+
+	.preview .active-nav img {
+		padding: 0;
+		border: 1px solid #F00;
+	}
+	.swiper-slide img{
+		width: 100%;
+		box-shadow: 5px 5px 12px #eaeaea;
+	}
+	.banner-pingtai img{
+		width: 100%;
+
+	}
+	.swiper-slide,.swiper-slide-active{
+		margin: auto;
+	}
+/*平台资质中心内容样式结束*/
